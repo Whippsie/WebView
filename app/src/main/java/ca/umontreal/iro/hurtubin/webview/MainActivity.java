@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+
         Button navigator = (Button) findViewById(R.id.button_navigator);
 
         navigator.setOnClickListener(new View.OnClickListener() {
@@ -39,5 +40,6 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
     }
 }
